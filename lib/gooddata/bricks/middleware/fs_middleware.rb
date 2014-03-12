@@ -28,7 +28,7 @@ module GoodData::Bricks
       end
 
       returning(@app.call(params)) do |result|
-        write(result) unless env = 'local'
+        write(result) unless env = 'local' || nil
       end
     end
 
