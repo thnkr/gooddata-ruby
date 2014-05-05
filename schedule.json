@@ -1,0 +1,14 @@
+{ "schedule": {
+	"type":"MSETL",
+	"timezone":"UTC",
+	"cron":"0 15 27 7 *",
+	"params": {
+		"PROCESS_ID": "49023",
+		"EXECUTABLE": "graph/run.grf"
+	},
+	"hiddenParams": {
+		"HPARAM1_NAME" : "HPARAM1_VALUE"
+	}
+	}
+}
+
