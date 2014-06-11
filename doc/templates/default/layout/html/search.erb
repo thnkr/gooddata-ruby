@@ -1,0 +1,11 @@
+<div id="search">
+  <p> Lookup: </p>
+  <% menu_lists.each do |field| %>
+    <a class="full_list_link" id="<%= field[:type] %>_list_link" href="<%= url_for_list(field[:type]) %>">
+      <%= field[:search_title] %>
+    </a>
+  <% end %>
+</div>
+<script type="text/javascript">
+  //$('div.test').
+</script>
